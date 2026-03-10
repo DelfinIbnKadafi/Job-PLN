@@ -153,6 +153,7 @@ filterscripts pln
 ```
 zcmd
 a_samp
+sscanf
 ```
 
 ---
