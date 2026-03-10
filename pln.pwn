@@ -142,7 +142,7 @@ CMD:perbaikilistrik(playerid) {
 
   SendClientMessage(playerid, -1, "[PLN] Memperbaiki listrik...");
 
-  SetPlayerControllable(playerid, false);
+  TogglePlayerControllable(playerid, false);
 
   ApplyAnimation(playerid, "BOMBER", "BOM_Plant_Loop", 4.1, 1, 0, 0, 1, 0);
 
@@ -161,7 +161,7 @@ public FinishRepair(playerid, lokasi) {
 
   ClearAnimations(playerid);
 
-  SetPlayerControllable(playerid, true);
+  TogglePlayerControllable(playerid, true);
 
   GivePlayerMoney(playerid, 50000);
 
