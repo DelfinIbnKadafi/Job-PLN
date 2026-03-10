@@ -1,5 +1,6 @@
 #include <a_samp>
 #include <zcmd>
+#include <sscanf2>
 
 #define MAX_LOKASI 5
 #define DIALOG_PLN 1000
